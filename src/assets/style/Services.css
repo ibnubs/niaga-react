@@ -8,7 +8,7 @@
 .inner-container-layanan{
     text-align: center;
     width: 1150px;
-    height: 580px;
+    height: 800px;
     padding: 109px 10px 0px 10px;
     border: 1px red solid;
     margin: 0 auto;
@@ -18,6 +18,140 @@
     position: fixed top;
     margin-top: 0;
     border: 1px yellowgreen solid;
+    padding-bottom: 70px;
+    background-color: #F6FBFF;
+}
+
+
+/* card */
+
+.outside-card{
+    display: inline-block;
+    max-width: 260px;
+    height: 394px;
+    padding: 55px 12px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(17,26,104,.2);
+    text-align: center;
+    transition: all .4s;
+    background: #ffff;
+    margin:0px 11px;
+}
+
+.outside-card:hover{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    animation-duration: 0.25s;
+    animation-name: example;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-left: 8px solid red;
+}
+
+
+.img-card{
+    margin-bottom: 30px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+
+}
+
+.service-title-card{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    line-height: 1.2;
     
-    
+}
+
+.color-text a{
+    color: #3a4166;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: none;
+    outline: none;
+    color: none;
+}
+
+.service-desc-card{
+    font-size: 14px;
+    margin-bottom: 24px;
+    color:rgb(58, 65, 102, .7);
+}
+
+.service-start-from-card{
+font-size: 14px;
+font-weight: 700;
+opacity: .7;
+}
+
+.service-price-card{
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+
+/* horizontal card */
+
+.horizontal-card-body{
+    width: 545px;
+    height: 140px;
+    margin: 48px auto 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(17,26,104,.2);
+    transition: all .4s;
+    background: #ffff;
+    cursor: pointer;
+}
+
+.horizontal-card-body:hover{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    animation-duration: 0.25s;
+    animation-name: example;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-left: 8px solid red;
+}
+
+
+.horizontal-card-row{
+    padding: 10px;
+    height: 140px;
+}
+
+.horizontal-card-img{
+    width: 120px;
+    height: 120px;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+.horizontal-card-img-content{
+    width: 100%;
+    height: 100%;
+}
+
+.horizontal-card-content{
+    float: right;
+    width: 365px;
+}
+
+.horizontal-card-content-title{
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3a4166;
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+
+.horizontal-card-content-desc{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: .05em;
+    color: #757a94;
+    text-align: left;
 }
