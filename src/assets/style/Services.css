@@ -1,0 +1,23 @@
+.service-title{
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.inner-container-layanan{
+    text-align: center;
+    width: 1150px;
+    height: 580px;
+    padding: 109px 10px 0px 10px;
+    border: 1px red solid;
+    margin: 0 auto;
+}
+
+.container-layanan{
+    position: fixed top;
+    margin-top: 0;
+    border: 1px yellowgreen solid;
+    
+    
+}
