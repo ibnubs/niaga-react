@@ -1,7 +1,6 @@
 .container-hero{
     position: fixed top;
     margin-top: 0;
-    border: 1px yellowgreen solid;
     background: rgb(13,87,221);
     background: linear-gradient(90deg, rgba(13,87,221,1) 0%, rgba(16,109,255,1) 38%, rgba(13,110,255,1) 59%, rgba(3,119,255,1) 100%);
     color: #fff;
@@ -11,22 +10,17 @@
     width: 1150px;
     height: 580px;
     padding: 109px 10px 0px 10px;
-    border: 1px red solid;
     margin: 0 auto;
 }
 
 .left{
     float: left;
     width: 50%;
-    border: #fff 1px solid;
-    
-
 }
 
 .right{
     float: right;
     width: 50%;
-    border: #fff 1px solid;
     top: -80px;
     position: relative;
 
@@ -85,10 +79,11 @@
     font-size: 15px;
     text-transform: uppercase;
     margin-top: 50px;
-    width: 195px;
+    width: 250px;
     height: 46px;
     font-weight: bold !important;
     display: inline-block;
+    text-align: center;
 }
 
 

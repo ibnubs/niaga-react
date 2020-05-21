@@ -1,0 +1,93 @@
+.Priority-container{
+    padding: 100px 0;
+    border: 2px solid saddlebrown;
+    height: 1200px;
+    width: 100%;
+    
+}
+
+.Priority-content-row{
+    border: 1px red solid;
+    width: 1150px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.Priority-content-left{
+    width: 50%;
+    border: 2px solid yellow;
+    float: left;
+    height: 700px;
+}
+
+.Priority-content-right{
+    width: 50%;
+    border: 2px solid green;
+    float: right;
+    height: 700px;
+    text-align: center;
+}
+
+
+/* card */
+.content-card-prioirty{
+    height: 116px;
+    width: 465px;
+    margin-bottom: 40px;
+    display: inline-block;
+    border: 2px solid red;
+}
+
+
+.content-img-priority{
+    float: left;
+    margin-right: 20px;
+
+}
+
+.title-card-priority{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #3a4166;
+}
+
+.desc-card-priority{
+    font-size: 16px;
+    opacity: .7;
+    color: #3a4166;
+
+}
+
+.btn-priority{
+    margin-left: 80px;
+    margin-top: -40px;
+}
+
+.img-graphic{
+    margin-top: 200px ;
+    z-index: 4;
+    position: absolute;
+    margin-left: -560px;
+}
+
+
+.img-imufiy{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 90px;
+    margin-left: -560px;
+    
+}
+
+.img-litespeed{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 90px;
+    margin-left: -80px;
+}
