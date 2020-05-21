@@ -1,0 +1,38 @@
+.Saving-container{
+    padding: 100px 0;
+    border: 2px solid yellow;
+    height: 1200px;
+    width: 100%;
+    background-color: #F6FBFF;
+    
+}
+
+
+.saving-img1{
+    z-index: 1;
+}
+.saving-img2{
+    z-index: 2;
+    margin-top: -110px;
+    margin-left: 70px;
+    
+}
+.saving-img3{
+    z-index: 3;
+    margin-top: -400px;
+    margin-left: -300px;
+}
+.saving-img4{
+    z-index: 4;
+    margin-top: -400px;
+    margin-left: 340px;
+}
+.saving-img5{
+    z-index: 5;
+    margin-top: -700px;
+}
+.saving-img6{
+    z-index: 6;
+    margin-left: 370px;
+    margin-top: -200px;
+}
