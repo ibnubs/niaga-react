@@ -1,0 +1,98 @@
+.footer-accs{
+    padding-top: 100px;
+    padding-bottom: 24px;
+    background-color: #333;
+    color: #c4c4cc;
+
+}
+
+.kotainer-footer{
+    height: 800px;
+    width: 1180px;
+    margin: auto;
+}
+
+.title-footer{
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 900 !important;
+    color: #c4cac4;
+}
+
+.footer-content{
+    line-height: 2.02em;
+    color: #fff;
+}
+
+
+.row-footer{
+    margin: 0px -15px;
+
+}
+
+.margin-li-footdesc{
+    padding: 0 40px;
+
+}
+
+.footer-menu-list{
+    color: #c4c4cc;
+    line-height: 1.8;
+}
+
+.footer-menu{
+    color: #c4c4cc;
+    
+}
+
+a:hover {
+    background-color: rgba(238, 235, 235, 0.37);
+}
+
+.input-email{
+    border: none;
+    border-bottom: 1px solid#fff;
+    outline: none;
+    background: 0 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 16px 0;
+}
+
+.btn-wrap{
+    margin-top: 25px;
+    text-align: right;
+}
+
+.btn-bawah{
+    font-size: 12px;
+    background: #fb8c00;
+    padding: 10px 22px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.img-sosmed{
+    width: 48px;
+    height: 48px;
+    margin-right: 30px;
+}
+
+.col-copyright{
+    width: 658px;
+}
+
+.text-copyright{
+    font-size: 12px;
+}
+
+.col-policy{
+    float: right;
+    margin-top: -55px;
+}
+
+.pol-item{
+    color: #c4c4cc;
+    font-size: 12px;
+}
